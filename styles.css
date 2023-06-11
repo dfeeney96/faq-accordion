@@ -116,10 +116,18 @@ p {
         grid-template-columns: repeat(2, 1fr);
         width: 900px;
         height: 550px;
+        padding-left: 0;
+    
     }
 
     .woman-mobile {
         display: none;
+    }
+
+    .overlay{
+        width: 100%;
+        overflow: hidden;
+        
     }
 
     .woman-desktop {
@@ -139,8 +147,8 @@ p {
     .box {
         display: block;
         position: relative;
-        right: 110px;
-        bottom: 360px;
+        right: 90px;
+        bottom: 370px;
     }
 
     .questions-col {
